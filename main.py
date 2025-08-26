@@ -6,7 +6,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")  
 
 # 2. Load image
-image_path = "image6.png"  # replace with your fruit image
+image_path = "image7.png"  # replace with your fruit image
 image = cv2.imread(image_path)
 
 # 3. Run detection
